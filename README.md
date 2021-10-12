@@ -24,15 +24,15 @@ Api Docs
 
 		     - Response
 		       {
-					    "user": {
-					        "id": 17,
-					        "email": "admin@yopmail.com",
-					        "password_digest": "$2a$12$45les5tfoSOqHK5zahTKEucsNabgFlVE1M3fDzQWcT2HVhbWG4pn.",
-					        "is_admin": true,
-					        "created_at": "2021-10-12T10:13:02.044Z",
-					        "updated_at": "2021-10-12T10:13:02.044Z"
-					    },
-					    "token": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxN30.Z3-5qgLuXBlLn1oFIae4p0o946_GNR23sA3pLjjfLaQ"
+							"user": {
+						"id": 17,
+						"email": "admin@yopmail.com",
+						"password_digest": "$2a$12$45les5tfoSOqHK5zahTKEucsNabgFlVE1M3fDzQWcT2HVhbWG4pn.",
+						"is_admin": true,
+						"created_at": "2021-10-12T10:13:02.044Z",
+						"updated_at": "2021-10-12T10:13:02.044Z"
+							},
+							"token": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxN30.Z3-5qgLuXBlLn1oFIae4p0o946_GNR23sA3pLjjfLaQ"
 		       }
 		  
      
