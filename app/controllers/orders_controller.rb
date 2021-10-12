@@ -16,8 +16,8 @@ class OrdersController < ApplicationController
   # POST /orders
   def create
     @order = Order.new(order_params)
-
     if @order.save
+      @order.product_orders.create(product_id: params[:product_id])
       render json: @order, status: :created, location: @order
     else
       render json: @order.errors, status: :unprocessable_entity
@@ -36,6 +36,7 @@ class OrdersController < ApplicationController
   # DELETE /orders/1
   def destroy
     if @order.destroy
+      @order.product_orders.destroy_all
       render json: @order
     else
       render json: @order.errors, status: :unprocessable_entity
