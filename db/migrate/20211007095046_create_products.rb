@@ -7,7 +7,6 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.float :price
       t.string :sku
       t.integer :quantity
-      t.references :order, null: false, foreign_key: true
       t.references :region, null: false, foreign_key: true
 
       t.timestamps
